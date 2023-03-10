@@ -24,12 +24,13 @@ Prices on the page are single hearing aid prices unless the value in the Json fi
   the promo refers to the promo code, and will alter the coupon code on the page what ever promo code is here.
 - product
   this is the name of the product to be featured in the ad.
-- price
+- productPrice
   price values don't need quotes around them sinse they are integers. also all prices should reflect individual hearing aid price.
 - - list
 - - sale
 - - save
-- - actual
+- - product
+    this is the actual product to be displayed.
 - - pair
     Pair is a boolean, so this value should ONLY be "true" or "false". This will affect the price displayed on the page. By default it is set to false. So you only need to add a true value if you are running a "pair price" for the promo.
 - title
@@ -55,7 +56,7 @@ Prices on the page are single hearing aid prices unless the value in the Json fi
    "list": "",
    "sale": "",
    "save": "",
-   "actual": "",
+   "product": "",
    "pair": false
  },
  "title": "",

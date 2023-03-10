@@ -1,0 +1,348 @@
+body {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  left: 0;
+  position: absolute;
+  top: 0;
+  color: var(--bs-dark);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  color: rgb(28, 100, 145) !important;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700 !important;
+  font-size: 1.5em !important;
+  margin-bottom: 0 !important;
+}
+
+h2 {
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  margin-bottom: 1em !important;
+}
+
+h3 {
+  font-weight: 500 !important;
+  margin-bottom: 0.75em !important;
+}
+
+section {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.red-buy {
+  background-color: rgba(164, 30, 34, 1) !important;
+  border-color: rgba(164, 30, 34, 1) !important;
+  font-weight: 700 !important;
+  font-size: 1.15em !important;
+}
+
+.innerRow {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+/* Section: Header */
+#logo {
+  background-color: var(--bs-white);
+  text-align: end;
+  padding: 0;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#contact p {
+  margin-bottom: 0;
+}
+
+.price {
+  color: rgba(164, 30, 34, 1);
+}
+
+.graySection {
+  background-color: var(--bs-gray-200);
+}
+
+/* Section: Hero */
+.yellow-gradient {
+  background: rgba(248, 232, 153, 1);
+  background: -webkit-linear-gradient(#f8e899, white);
+  background: -moz-linear-gradient(#f8e899, white);
+  background: linear-gradient(#f8e899, white);
+  background: -ms-linear-gradient(#f8e899, white);
+  background: -o-linear-gradient(#f8e899, white);
+}
+
+.hero {
+  background-image: url(https://d9hhrg4mnvzow.cloudfront.net/save.advancedhearing.com/ub/23fem/0ab0eda0-banner-couple_10000000q20a3076000028.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero h1,
+.hero h2 {
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 2em !important;
+  text-align: left;
+}
+
+.hero h2 {
+  font-size: 1.75em !important;
+  text-align: left;
+  padding-bottom: 0.5em;
+}
+
+#card-product {
+  position: absolute;
+  top: 20%;
+  left: 75%;
+  width: 60%;
+}
+
+/* Sections: 2 column rows with picture on left */
+.picSecL {
+  text-align: left;
+}
+
+.picSecL div {
+  padding-left: 70px;
+}
+
+.picSecL figure {
+  justify-content: end;
+  display: flex;
+}
+
+/* Section: Best of all, HCGO hearing aids are affordable */
+/* Product Image */
+figure.product-feature-figure {
+  margin-right: -100%;
+}
+
+.product-feature {
+  flex-direction: row;
+  flex-wrap: nowrap !important;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.product-feature-description {
+  position: relative;
+  left: 40%;
+  top: -50px;
+}
+
+.product-feature-description p {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+}
+small#each {
+  font-size: 0.6em;
+}
+
+.product-feature-description #save2 {
+  font-size: 1em;
+}
+
+/* Product Description */
+#best-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Button Row */
+#bttnRowContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnRow {
+  display: flex;
+  align-items: center;
+  margin: 0 0 1em;
+  font-weight: 900;
+  font-size: 1em;
+}
+
+#coupCode {
+  border-style: dashed;
+  border-width: 3px;
+  border-color: var(--bs-dark);
+  border-radius: 10px;
+  padding: 9px 0px;
+  margin: 0 16px 0px -8px;
+}
+
+#buyNow {
+  text-align: center;
+  border-color: var(--bs-dark);
+}
+
+/* Section: Buy Bar */
+/* Bar */
+.buyBar {
+  margin: 50px 0px 50px 0px;
+}
+
+/* Hearing Aids */
+.buy-figure {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+.img-50 {
+  width: 50%;
+}
+
+/* Center Content */
+.buy-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.buy-content h1 {
+  font-size: 1.25em !important;
+  font-weight: 700 !important;
+  color: var(--bs-dark) !important;
+  margin-bottom: 0.5em !important;
+}
+
+.buy-content h2 {
+  color: var(--bs-dark);
+  font-size: 1em !important;
+  color: var(--bs-dark) !important;
+}
+
+/* Buy Button */
+.buyBttn {
+  background-image: url("https://user-assets-unbounce-com.s3.amazonaws.com/7c66ddf8-c717-11e3-b1ac-123140013162/9fd9bcee-2e95-41af-b54c-b429a5bb133b/advanced-affordable-hearing-parallelogram.original.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buyBttn button {
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 1.15em;
+  outline: 1px ridge var(--bs-white);
+}
+
+.buyBttn button:active {
+  outline: 3px ridge var(--bs-white);
+}
+
+/* Section: When you need help or have a question, speak to one of our Customer Care representatives */
+/* On Duty */
+#hour-list {
+  list-style-type: none;
+}
+
+/* Section: Thousands of happy customers */
+/* Left Coloumn */
+#badge-box {
+  background: rgba(155, 218, 236, 1);
+  background: -webkit-linear-gradient(#9bdaec, #ffffff);
+  background: -moz-linear-gradient(#9bdaec, #ffffff);
+  background: linear-gradient(#9bdaec, #ffffff);
+  background: -ms-linear-gradient(#9bdaec, #ffffff);
+  background: -o-linear-gradient(#9bdaec, #ffffff);
+  border: none;
+}
+
+#badge-box-row {
+  padding: 1em;
+  align-items: center;
+}
+
+/* Right Column */
+#des-1 {
+  text-align: left;
+}
+
+/* Section: reviews */
+
+#googleReviews {
+  margin-top: -50;
+}
+
+#reviews {
+  margin: 40px 0px;
+}
+
+.review h3 {
+  font-size: large;
+  color: var(--bs-dark) !important;
+  font-family: "Roboto", sans-serif;
+  margin: 14px 0;
+}
+
+.review {
+  text-align: left;
+  padding: -12px;
+  margin: 24px;
+}
+
+h4.rating {
+  font-size: 1em;
+}
+
+h4.rating::after {
+  content: "";
+  position: absolute;
+  width: 26%;
+  height: 18px;
+  background: url("https://d9hhrg4mnvzow.cloudfront.net/save.advancedhearing.com/ub/23fem/0ce548bd-stars-07_102o00h000000000000028.png")
+    no-repeat bottom;
+}
+
+div#mb-2 {
+  align-items: center;
+}
+
+/* Section: ignoreHearingHead  */
+#ignoreHearingHead {
+  margin-bottom: 1em;
+}
+
+#ignoreHearing p {
+  text-align: left;
+}

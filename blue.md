@@ -1,6 +1,24 @@
 # Blue Dynamic Elements
 
-## Object Properties
+## How It Works
+
+The "Blue" page uses a theme based on the "GO Blue" magazine add from 2021.
+
+### Using Javascript
+
+The page has a default build, that inludes default values. When the page loads it loads a Javascript function that looks to the URL for a "promo=" parameter. It uses the value found to select a Json file with the dynamic values.
+
+The Javascript then looks for any element tags on the page with a class matching key properties in the Json file ("class='sale' > "sale" : "").
+
+Once it finds a matching value it replaces the content inside the tag with the value found in the Json file
+
+### Price Values
+
+Prices on the page are single hearing aid prices unless the value in the Json file for pair is "true". In that case the price values are doubled before being placed on the page.
+
+## Object Build
+
+### Object Properties
 
 - promo
   the promo refers to the promo code, and will alter the coupon code on the page what ever promo code is here.
@@ -16,6 +34,8 @@
     Pair is a boolean, so this value should ONLY be "true" or "false". This will affect the price displayed on the page. By default it is set to false. So you only need to add a true value if you are running a "pair price" for the promo.
 - title
 - description
+- offer
+  the offer is a single sentence or short string detailing the offer made. ie:"to save $10 per hearing aid"
 - picture
   all pictures need alt tags, titles and file locations
 - - single-left
@@ -40,6 +60,7 @@
  },
  "title": "",
  "description": "",
+ "offer": "",
  "picture": {
    "single-left": {
      "alt": "",

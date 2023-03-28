@@ -30,8 +30,7 @@ export function promoHandler() {
             .setAttribute("src", promoData.picture["single-left"].location);
           document.querySelector(".single-left-alt").textContent =
             promoData.picture["single-left"].alt;
-          document.querySelector(".single-left-title").textContent =
-            promoData.picture["single-left"].title;
+          promoData.picture["single-left"].title;
           document
             .querySelector(".single-right")
             .setAttribute("src", promoData.picture["single-right"].location);

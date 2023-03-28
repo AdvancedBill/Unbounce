@@ -5,8 +5,8 @@ export function promoHandler() {
 
   if (promo) {
     // fetch promo.json
-    const url = `../../promo/${promo}.json`;
-    fetch(url)
+    const url = `//github.com/AdvancedBill/Unbounce/blob/4be57b5d586f4ffc79875793736082bc4179c69e/promo/${promo}.json`;
+    https: fetch(url)
       .then((response) => response.json())
       .then((data) => {
         const promoData = data[promo];

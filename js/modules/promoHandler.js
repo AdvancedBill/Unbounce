@@ -3,10 +3,11 @@ export function promoHandler(versionNo) {
   const params = new URLSearchParams(window.location.search);
   const promo = params.get("promo");
 
-  if ((promo, versionNo)) {
+  const url = `https://cdn.jsdelivr.net/gh/AdvancedBill/Unbounce@${versionNo}/promo/${promo}.json`;
+  console.log(url);
+
+  if (promo) {
     // fetch promo.json
-    const url = `https://cdn.jsdelivr.net/gh/AdvancedBill/Unbounce@${versionNo}/promo/${promo}.json`;
-    console.log(url);
     https: fetch(url)
       .then((response) => response.json())
       .then((data) => {

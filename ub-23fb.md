@@ -92,3 +92,24 @@ Prices on the page are single hearing aid prices unless the value in the Json fi
 }
 
 ```
+### ub-23fb.js
+#### The script ultimately fetches and displays promotional data based on the version number.
+
+This script imports the promoHandler function from promoHandler.js
+`import { promoHandler } from "./promoHandler.js";`
+
+This code finds the script tag that references ub-23fb.js and stores it in the scriptTag variable
+`const scriptTag = document.querySelector('script[type="module"][src*="/js/modules/ub-23fb.js"]');`
+
+This code extracts the src attribute from the script tag found above and stores it in the src variable
+`const src = scriptTag.getAttribute("src");`
+
+This code extracts the version number from the src using a regex pattern and stores it in the versionNo variable
+`const versionMatch = src.match(/AdvancedBill/Unbounce@([a-f0-9]+)//);`
+`const versionNo = versionMatch ? versionMatch[1] : null;`
+
+This code logs the version number to the console for debugging purposes
+`console.log(versionNo);`
+
+This code passes the version number to the promoHandler function
+`promoHandler(versionNo);`

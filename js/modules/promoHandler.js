@@ -11,6 +11,7 @@ export function promoHandler(versionNo) {
     https: fetch(url)
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         const promoData = data[promo];
         if (promoData) {
           document.querySelector(".promo").textContent = promoData.promo;

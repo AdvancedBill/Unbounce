@@ -28,15 +28,22 @@ export function promoHandler(versionNo) {
           document.querySelector(".description").textContent =
             promoData.description;
           document.querySelector(".offer").textContent = promoData.offer;
-          document
-            .querySelector(".single-left")
-            .setAttribute("src", promoData.picture["single-left"].location);
-          document.querySelector(".single-left-alt").textContent =
-            promoData.picture["single-left"].alt;
-          promoData.picture["single-left"].title;
-          document
-            .querySelector(".single-right")
-            .setAttribute("src", promoData.picture["single-right"].location);
+// I was told to stop here
+          const imageSwap = (pic) => {
+            // Get the image data from the JSON
+            image_data = data["picture"][pic];
+            const buildTag = document.createElement("img");
+            buildTag.setAttribute("src", promoData.picture[pic].location);
+            buildTag.setAttribute("alt", promoData.picture[pic].alt);
+            buildTag.setAttribute("title", promoData.picture[pic].title);
+            return buildTag;
+          };
+          document.querySelector(".singleLeft").innerHTML =
+            imageSwap("singleLeft");
+          document.querySelector(".singleRight").innerHTML =
+            imageSwap("singleRight");
+// end stop
+
           document.querySelector(".single-right-alt").textContent =
             promoData.picture["single-right"].alt;
           document.querySelector(".single-right-title").textContent =

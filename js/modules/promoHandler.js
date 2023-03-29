@@ -1,5 +1,5 @@
 // promoHandler.js
-export function promoHandler() {
+export function promoHandler(versionNo) {
   const params = new URLSearchParams(window.location.search);
   const promo = params.get("promo");
 

@@ -5,7 +5,7 @@ export function promoHandler() {
 
   if (promo) {
     // fetch promo.json
-    const url = `https://github.com/AdvancedBill/Unbounce/blob/main/promo/${promo}.json`;
+    const url = `https://cdn.jsdelivr.net/gh/AdvancedBill/Unbounce@${versionNo}/promo${promo}.json`;
     https: fetch(url)
       .then((response) => response.json())
       .then((data) => {

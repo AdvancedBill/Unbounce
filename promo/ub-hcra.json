@@ -1,0 +1,65 @@
+{
+  "d37": {
+    "promo": "d37",
+    "page": {
+      "productPage": "https://advancedhearing.com/hcra",
+      "title": "HearClear™ Rechargeable Hearing Aids",
+      "keywords":["Rechargeable", "Hearing Aids", "Digital", "HearClear", "Advanced", "Affordable", "Trust"],
+      "meta": "We offer the best value priced, quality digital hearing aids at dramatically discounted prices - All with a Risk Free Money Back Guarantee."
+    },
+    "price": {
+      "list": 1499,
+      "pair": 698,
+      "single": 379,
+      "product": "hcra",
+      "isPair": false
+    },
+    "title": "Affordable. Programmable. Customized Digital Hearing Aid – For Only $299*",
+    "description": "The new HearClear™ is a stunning breakthrough in technology! Fully programmable by you or remotely by an expert! At an incredibly low, low price…",
+    "offer": "at checkout to save $10 per hearing aid",
+    "qualifier": "(*Each when you buy a pair)",
+    "magCopy": "<p>Experience the difference that a fully customized hearing aid will make without spending $3,000 or more for a traditional hearing aid. Our new technology allows you to experience the remarkable benefits of a custom-programmed hearing aid at a fraction of the cost of traditional hearing aids. Specially priced at <strong>under $300</strong>, the HCRA programmable hearing aid is simply the best all-around value available.</p><p>The HCRA sounds great right out of the box, or we can <strong>custom program</strong> it for your individual situation. You can even program and adjust it yourself using our <strong>FREE Smart Phone App!</strong> And to add even more value, you can request support from our experts to remotely program your hearing aids for you!</p><p>You don’t have to spend thousands of dollars to get high-quality, custom programmed hearing aids. Our innovations have been breaking cost barriers since 1996, and our team of expert hearing researchers have spent years perfecting the technology in the new HCRA. Your satisfaction with these FDA registered OTC hearing aids is assured with our <strong>100% Money Back Guarantee.</strong></p>",
+    "features": [
+      "Advanced American Technology",
+      "Rechargeable battery lasts all day",
+      "Easy On / Off Button",
+      "Automatic Noise Reduction",
+      "100% Money Back Guarantee",
+      "Full Customization with FREE Smart Phone App (compatible device required)",
+      "Telecare and remote in-app support",
+      "FDA registered OTC - No prescription needed!"
+    ],
+    "picture": {
+      "banner": {
+        "alt": "Only order the left hearing aid, even though it's recommended to buy both sides",
+        "title": "Left HCGO hearing aid",
+        "location": "https://d9hhrg4mnvzow.cloudfront.net/save.advancedhearing.com/ub/hcra/c94212e5-advanced-affordable-hearing-banner_11hc0op1hc0lc00003c028.png"
+      },
+      "singleLeft": {
+        "alt": "Only order the left hearing aid, even though it's recommended to buy both sides",
+        "title": "Left HCGO hearing aid",
+        "location": "https://advancedhearing.com/sites/default/files/images/HearingAids/HCGO/advanced-affordable-hearing_hcgo-left.png?s194380d1678225864"
+      },
+      "singleRight": {
+        "alt": "Only order the right hearing aid, even though it's recommended to buy both sides",
+        "title": "Right HCGO hearing aid",
+        "location": "https://advancedhearing.com/sites/default/files/images/HearingAids/HCGO/advanced-affordable-hearing_hcgo-right.png?s194380d1678225864"
+      },
+      "pair": {
+        "alt": "Order the pair of hearing aids for your best hearing experience.",
+        "title": "Pair of HCGO hearing aids",
+        "location": "https://advancedhearing.com/sites/default/files/images/HearingAids/HCGO/hcgo-both_2022.png"
+      },
+      "inBox": {
+        "alt": "Here's what comes with your new HearClear™ GO Rechargeable Digital Hearing Aid",
+        "title": "What's in the box for the HearClear™ GO Rechargeable Digital Hearing Aid",
+        "location": "https://advancedhearing.com/sites/default/files/images/TV_Landing_Page/hearcleargo_in_the_box_thin_tubing.jpg"
+      },
+      "sizeComp": {
+        "alt": "The HearClear™ GO Rechargeable Digital Hearing Aid stacks in at 1.38 inches tall. It's right in the middle of the size range, compared to the rest of the HearClear™ family.",
+        "title": "HearClear™ GO Rechargeable Digital Hearing Aid Size Comparison",
+        "location": "https://advancedhearing.com/sites/default/files/images/Actual_Size/hearclear_actual_size_hcgo.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "d37": {
+    "page": {
+      "productPage": "",
+      "title": "page_title",
+      "keywords": ["utm_term"],
+      "meta": "utm_content",
+      "mast": {
+        "image": {
+          "banner": {
+            "alt": "Only order the left hearing aid, even though it's recommended to buy both sides",
+            "title": "Left HCGO hearing aid",
+            "location": "https://d9hhrg4mnvzow.cloudfront.net/save.advancedhearing.com/ub/hcra/c94212e5-advanced-affordable-hearing-banner_11hc0op1hc0lc00003c028.png"
+          }
+        }
+      }
+    },
+    "price": {
+      "list": "list-price",
+      "pair": "pair",
+      "salePair": "sale-price-pair",
+      "single": "bigprice",
+      "saleSingle": "sale-price-single",
+      "product": "hcra",
+      "isPair": false
+    },
+    "camgaign": {
+      "promo": "utm_campaign",
+      "phone": "utm_id",
+      "title": "campaign-title",
+      "description": "campaign-description",
+      "offer": "campaign-offer",
+      "qualifier": "campaign-qualifier",
+      "headline": "campaign-headline",
+      "copy": "campaign-copy",
+      "features": ["campaign-features"]
+    },
+    "product": {
+      "sku": {
+        "single": "",
+        "pair": ""
+      },
+      "images": {
+        "singleLeft": {
+          "alt": "Only order the left hearing aid, even though it's recommended to buy both sides",
+          "title": "Left HCGO hearing aid",
+          "location": "https://advancedhearing.com/sites/default/files/images/HearingAids/HCGO/advanced-affordable-hearing_hcgo-left.png?s194380d1678225864"
+        },
+        "singleRight": {
+          "alt": "Only order the right hearing aid, even though it's recommended to buy both sides",
+          "title": "Right HCGO hearing aid",
+          "location": "https://advancedhearing.com/sites/default/files/images/HearingAids/HCGO/advanced-affordable-hearing_hcgo-right.png?s194380d1678225864"
+        },
+        "pair": {
+          "alt": "Order the pair of hearing aids for your best hearing experience.",
+          "title": "Pair of HCGO hearing aids",
+          "location": "https://advancedhearing.com/sites/default/files/images/HearingAids/HCGO/hcgo-both_2022.png"
+        },
+        "inBox": {
+          "alt": "Here's what comes with your new HearClear™ GO Rechargeable Digital Hearing Aid",
+          "title": "What's in the box for the HearClear™ GO Rechargeable Digital Hearing Aid",
+          "location": "https://advancedhearing.com/sites/default/files/images/TV_Landing_Page/hearcleargo_in_the_box_thin_tubing.jpg"
+        },
+        "sizeComp": {
+          "alt": "The HearClear™ GO Rechargeable Digital Hearing Aid stacks in at 1.38 inches tall. It's right in the middle of the size range, compared to the rest of the HearClear™ family.",
+          "title": "HearClear™ GO Rechargeable Digital Hearing Aid Size Comparison",
+          "location": "https://advancedhearing.com/sites/default/files/images/Actual_Size/hearclear_actual_size_hcgo.png"
+        }
+      }
+    }
+  }
+}

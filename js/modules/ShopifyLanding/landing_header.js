@@ -1,8 +1,9 @@
 // landingHeader.js
-import { saleMath } from "../saleMath";
+import { saleMath } from "../saleMath.js";
 
 export const landingHeader = (promo) => {
   console.log(promo);
+  console.log(promo.picture.banner);
 
   const productPic = promo.picture;
 
@@ -10,9 +11,7 @@ export const landingHeader = (promo) => {
     saleMath(promo);
 
   const header = `
-    <section id="landing-mast">
-      <div id="mast-container">
-        <span id="empty"></span>
+    <section id="landing-mast" style="background-image:url(${promo.picture.banner.location});">
         <div id="intro">
           <div id="page-title">
             <h1>${promo.title}</h1>
@@ -26,6 +25,8 @@ export const landingHeader = (promo) => {
             <img
               src="${productPic.singleLeft.location}"
               alt="${productPic.singleLeft.alt}"
+              width="400"
+              height="400"
             />
           </figure>
 
@@ -39,10 +40,12 @@ export const landingHeader = (promo) => {
             </span>
           </div>
         </div>
-      </div>
     </section>
   `;
 
+  const createMainEl = document.createElement("main");
   const docBody = document.body;
-  docBody.insertAdjacentHTML("beforeend", header);
+  docBody.appendChild(createMainEl);
+  const mainEl = document.querySelector("main");
+  mainEl.insertAdjacentHTML("beforeend", header);
 };
